@@ -3,7 +3,7 @@
     <Header version="8.0" action="read" objectType="contentPack" externalSource="NIKU">
     <args contentType="object" name="order_by_1" value="code"/>
     <args name="singleContentType" value="object"/>
-    <args name="no_dependencies" value="true"/>
+    <args name="no_dependencies" value="false"/>
     </Header>
     <ObjectQuery>
     <Filter name="object_code" criteria="EQUALS">idea</Filter>
