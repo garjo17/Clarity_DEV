@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <NikuDataBus xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/nikuxog_read.xsd">
     <Header version="8.0" action="read" objectType="contentPack" externalSource="NIKU">
-    <args contentType="object" name="order_by_1" value="code"/>
-    <args name="singleContentType" value="object"/>
-    <args name="no_dependencies" value="true"/>
+		<args contentType="object" name="order_by_1" value="code"/>
+		<args name="singleContentType" value="object"/>
+		<args name="no_dependencies" value="true"/>
     </Header>
     <ObjectQuery>
-    <Filter name="object_code" criteria="EQUALS">idea</Filter>
+		<Filter name="object_code" criteria="EQUALS">idea</Filter>
     </ObjectQuery>
 </NikuDataBus>
